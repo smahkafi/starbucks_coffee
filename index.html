@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks Website Landing Page</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img src="logo.png" alt="" class="logo" /></a>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">MENU</a></li>
+          <li><a href="#">WHAT'S NEW</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>It's not just coffee <br />It's <span>Starbucks</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+            amet vel cumque, nihil voluptates odio, tempora, rem ipsa maxime
+            atque ex! Voluptatum odio quod rem omnis esse ad earum vitae!
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+          <img src="img1.png" alt="" class="starbucks" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="thumb1.png"
+            onclick="imgSlider('img1.png');changeCircleColor('#017143')"
+            alt="img1 thumb"
+          />
+        </li>
+        <li>
+          <img
+            src="thumb2.png"
+            onclick="imgSlider('img2.png');changeCircleColor('#eb7495')"
+            alt="img2 thumb"
+          />
+        </li>
+        <li>
+          <img
+            src="thumb3.png"
+            onclick="imgSlider('img3.png');changeCircleColor('#d752b1')"
+            alt="img3 thumb"
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="instagram.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="twitter.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- javascript code  -->
+    <script src="js.js"></script>
+  </body>
+</html>
